@@ -18,21 +18,23 @@ class CustomStack {
   }
 
   print() {
-    console.log(stack);
+    console.log(this.stack);
   }
 }
 
-const stack = new CustomStack();
+// module.exports = CustomStack;
+export default CustomStack;
+// const stack = new CustomStack();
 
-stack.push(1);
-stack.push(2);
-stack.push(3);
-stack.push(4);
+// stack.push(1);
+// stack.push(2);
+// stack.push(3);
+// stack.push(4);
 
-stack.print();
+// stack.print();
 
-stack.pop();
+// stack.pop();
 
-stack.print();
+// stack.print();
 
-console.log(stack.peek());
+// console.log(stack.peek());
