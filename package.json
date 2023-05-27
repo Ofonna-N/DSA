@@ -4,7 +4,7 @@
   "description": "Data structure and algorithm tutorial follow",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/hashtables/HashTable.ts",
+    "start": "nodemon src/trees/BinarySearchTree.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
