@@ -57,6 +57,15 @@ class BST {
 
     return false;
   }
+
+  dfs_Print_Pre_rec(node = this.root) {
+    if (node == null) return;
+
+    console.log(node.value);
+
+    this.dfs_Print_Pre_rec(node.left);
+    this.dfs_Print_Pre_rec(node.right);
+  }
 }
 
 const tree = new BST();
@@ -69,3 +78,5 @@ console.log(tree.root);
 
 console.log("10 in tree", tree.find(10));
 console.log("2 in tree", tree.find(2));
+
+tree.dfs_Print_Pre_rec();
