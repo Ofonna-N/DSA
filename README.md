@@ -1,2 +1,3 @@
 # DSA
-Data structure and algorithm tutorial follow
+
+Daily practice of datastructure and algorithms
