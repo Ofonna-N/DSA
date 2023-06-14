@@ -4,7 +4,7 @@
   "description": "Data structure and algorithm tutorial follow",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/algos/SelectionSort.ts",
+    "start": "nodemon src/algos/InsertionSort.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
